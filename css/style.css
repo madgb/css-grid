@@ -2,8 +2,14 @@ h1, h2, h3, h4, h5, h6, p, a, span{
     text-align: center;
     font-family: sans-serif;
 }
+
+pre{
+    white-space: pre-wrap;
+}
 pre code{
     font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 .wrapper{
     max-width: 50em;
