@@ -7,7 +7,11 @@ h1, h2, h3, h4, h5, h6, p, a, span{
     margin: 0 auto;
 }
 
-.container > div {
+.grid-1 .container > div{
+    border: 1px solid #BEBEBE;
+}
+
+.grid-3 .container > div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p, a, span{
     color: #ffeead;
 }
 
-.container > div > img {
+.grid-3 .container > div > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
