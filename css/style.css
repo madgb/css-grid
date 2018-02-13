@@ -2,6 +2,9 @@ h1, h2, h3, h4, h5, h6, p, a, span{
     text-align: center;
     font-family: sans-serif;
 }
+code{
+    font-family: 'Ubuntu Mono', monospace;
+}
 .wrapper{
     max-width: 50em;
     margin: 0 auto;
